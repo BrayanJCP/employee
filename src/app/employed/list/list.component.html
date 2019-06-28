@@ -1,0 +1,17 @@
+<ul class="list-group justify-content-center">
+    <li *ngFor="let item of list" class="mb-2">
+        <div class="card text-center">
+            <div class="card-header">
+                {{item.name}} {{item.lastname}}
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{item.pay}}</h5>
+                <a href="#" class="btn btn-info mr-1">Actualizar</a>
+                <a href="#" class="btn btn-danger">Eliminar 2</a>
+            </div>
+            <div class="card-footer text-muted">
+                <b>{{item.birthdate}}</b>
+            </div>
+        </div>
+    </li>
+</ul>

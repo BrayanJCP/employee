@@ -1,0 +1,17 @@
+li{
+    max-width: 30%;
+    margin: 5px 1.6%;
+    display: inline-block;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    flex-flow: row wrap;
+    @media screen and (max-width:768px){
+        flex-direction: column;
+        li{
+            max-width: 90%;
+            margin: 0 5%;
+        }
+    }
+}
